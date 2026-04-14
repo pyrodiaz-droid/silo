@@ -1,0 +1,13 @@
+*.pyc
+__pycache__/
+*.log
+.gradle/
+gradle/
+build/
+dist/
+jdk-11.0.21+9/
+jdk.zip
+jdk17.tar.gz
+app/
+housekeeping/
+.claude/

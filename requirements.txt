@@ -1,0 +1,24 @@
+# Requirements for Silo Audiobook Metadata Editor
+
+# Core dependencies
+mutagen>=1.46.0          # Audio metadata handling (MP3, FLAC, MP4, OGG)
+Pillow>=9.0.0            # Image processing for cover art
+
+# Development dependencies
+pytest>=7.0.0            # Unit testing framework
+pytest-cov>=4.0.0        # Code coverage for tests
+pytest-mock>=3.10.0      # Mocking support for tests
+
+# Code quality
+flake8>=6.0.0            # Code linting
+black>=23.0.0             # Code formatting
+mypy>=1.0.0              # Static type checking
+
+# Build dependencies
+PyInstaller>=5.0.0       # Create standalone executables
+
+# Optional: Enhanced logging
+# structlog>=23.0.0       # Structured logging (alternative to standard logging)
+
+# Note: tkinter is included with Python standard library
+# and does not need to be installed separately.
